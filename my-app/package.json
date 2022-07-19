@@ -1,0 +1,60 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:5000",
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^3.0.2",
+    "@devexpress/dx-react-chart-material-ui": "^3.0.2",
+    "@devexpress/dx-react-core": "^3.0.2",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/material": "^5.5.2",
+    "@mui/styled-engine-sc": "^5.4.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^2.9.4",
+    "install": "^0.13.0",
+    "material-ui-form": "^1.0.0-alpha.26",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^2.9.0",
+    "react-chartjs-3": "^2.7.7",
+    "react-dom": "^17.0.2",
+    "react-highlight-words": "^0.17.0",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-modal": "^3.14.4",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "^5.0.0",
+    "react-show-more-text": "^1.5.2",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.18"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
